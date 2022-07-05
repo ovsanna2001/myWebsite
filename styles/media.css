@@ -2,4 +2,28 @@
     .container:not(.header) {
         padding: 7rem 11rem;
     }
+    .all-cources {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 1024px) {
+    .header-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (max-width: 768px) {
+    .controls {
+        width: 95%;
+        margin: auto;
+        justify-content: space-between;
+        bottom: 0;
+        right: unset;
+        top: unset;
+        transform: unset;
+        flex-direction: row;
+    }
+    .control {
+        min-width: auto;
+        margin-bottom: 1rem;
+    }
 }
