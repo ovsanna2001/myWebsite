@@ -38,7 +38,6 @@ img {
 header {
     height: 100vh;
     color: var(--color-deafult);
-    overflow: hidden;
 }
 section {
     min-height: 100vh;
@@ -471,6 +470,7 @@ section {
     margin-top: 2rem;
     display: flex;
     justify-content: space-between;
+    flex-direction: row-reverse;
 }
 .input-row {
     width: 100%;
@@ -497,7 +497,11 @@ textarea {
     outline: none;
 }
 .left-cont {
+    justify-content: space-between;
+    display: flex;
     width: 55%;
+    flex-direction: column;
+
 }
 .left-cont form {
     width: 100%;

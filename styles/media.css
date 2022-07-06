@@ -1,29 +1,107 @@
-@media screen and (max-width: 1432px) {
+@media screen and (max-width: 1500px) {
     .container:not(.header) {
-        padding: 7rem 11rem;
+        padding: 7rem 8rem;
     }
     .all-cources {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 @media screen and (max-width: 1024px) {
+    .header-content .right-header {
+        padding-right: 10rem;
+    }
+}
+@media screen and (max-width: 991px) {
     .header-content {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .header-content .right-header .name {
+        font-size: 2rem;
+    }
+    .header-content .left-header .h-shape {
+        display: none;
+    }
+    .header-content .left-header .image {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .header-content .right-header {
+        padding-right: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .container:not(.header) {
+        padding: 0;
+    }
+    .about-container {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        margin: 0 auto;
+    }
+    .about-container .left-about {
+        padding-right: 0;
+    }
+    .about-container .right-about {
+        margin-top: 2rem;
+    }
+    .about-stats .progress-bars, .all-cources, .portfolios,
+    .timeline {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        margin: 0 auto;
+    }
+    .timeline .timeline-item {
+        padding-left: 4rem;
+    }
+    .timeline .timeline-item .tl-icon {
+        left: 0;
+    }
+    .section {
+        padding: 0;
+    }
+    .contact-form {
+        flex-direction: column-reverse;
+        width: 65%;
+        margin: 0 auto;
+    }
+    .icon-info {
+        margin: 2rem auto;
+        width: 90%;
+    }
+    .icon {
+        background: none;
+    }
+    .info b {
+        display: none;
+    }
+    .left-cont {
+        margin-top: 2rem;
+        width: 100%;
     }
 }
 @media screen and (max-width: 768px) {
     .controls {
-        width: 95%;
-        margin: auto;
-        justify-content: space-between;
         bottom: 0;
+        left: 50%;
         right: unset;
-        top: unset;
-        transform: unset;
+        top: auto;
+        transform: translateX(-50%);
         flex-direction: row;
+        background-color: #f8f8f8;
+        width: 100%;
+        justify-content: center;
     }
     .control {
         min-width: auto;
-        margin-bottom: 1rem;
+        margin: 1rem 0.3rem;
+    }
+    .control:hover span {
+        opacity: 0;
+    }
+    .header-content, .timeline, .all-cources, .left-cont {
+        padding-bottom: 8rem;
+    }
+    .main-title h2 {
+        font-size: 3rem;
     }
 }
