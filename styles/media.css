@@ -22,6 +22,9 @@
     .header-content .right-header {
         padding-right: 10rem;
     }
+    .portfolios {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 @media screen and (max-width: 991px) {
     .header-content {
@@ -98,10 +101,14 @@
         min-width: auto;
         margin: 1rem 0.3rem;
     }
+    .control span {
+        display: none;
+    }
     .control:hover span {
         opacity: 0;
     }
-    .header-content, .timeline, .all-cources, .left-cont {
+    .header-content, .timeline, .all-cources, .left-cont,
+    .portfolios {
         padding-bottom: 8rem;
     }
     .main-title h2 {
