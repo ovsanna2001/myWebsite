@@ -4,5 +4,4 @@ const swiper = new Swiper('.swiper1', {
   loop: true,
   slidesPerView: 5,
   spaceBetween: 60,
-  
 });
