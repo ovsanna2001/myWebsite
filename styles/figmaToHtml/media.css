@@ -1,0 +1,8 @@
+@media screen and (max-width: 1690px) {
+    .icon-text img {
+        width: 30px;
+    }
+    .icon-text span {
+        font-size: 20px;
+    }
+}
