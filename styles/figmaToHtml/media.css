@@ -66,6 +66,9 @@
     .m_item {
         height: auto;
     }
+    .playing_img {
+        width: 80%;
+    }
     .content__4 {
         height: 1150px;
     }
@@ -121,7 +124,7 @@
 }
 @media screen and (max-width: 675px) {
     header {
-        height: 1035px;
+        height: 1140px;
     }
     nav .container {
         flex-direction: column;
