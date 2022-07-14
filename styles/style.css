@@ -295,34 +295,34 @@ section {
     position: relative;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
-    width: 80%;
+    width: 95%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
-    width: 80%;
+    width: 90%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-    width: 80%;
+    width: 95%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .vue {
     width: 20%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .react {
-    width: 10%;
+    width: 20%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .php {
-    width: 40%;
+    width: 50%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .laravel {
-    width: 40%;
+    width: 50%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .modx {
     width: 60%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .sql {
-    width: 60%;
+    width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .git {
-    width: 60%;
+    width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress span {
     position: absolute;
