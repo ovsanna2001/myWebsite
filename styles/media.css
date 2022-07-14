@@ -1,4 +1,4 @@
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1600px) {
     .container:not(.header) {
         padding: 7rem 8rem;
     }

@@ -5,3 +5,6 @@ const swiper = new Swiper('.swiper1', {
   slidesPerView: 5,
   spaceBetween: 60,
 });
+$('.accordion-header').click(function() {
+    $(this).parent().toggleClass('show');
+})
